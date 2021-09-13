@@ -87,10 +87,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     href="https://book.cakephp.org/4/">Documentation</a>
                 <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" target="_blank" rel="noopener"
                     href="https://api.cakephp.org/">API</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/proj1/articles">Articles</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/proj1/articles/add">Add
+                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/articles">Articles</a>
+                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/articles/add">Add
                     article</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/proj1/users">Users</a>
+                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users">Users</a>
 
             </div>
             <label for="menu" class="d-lg-none">
