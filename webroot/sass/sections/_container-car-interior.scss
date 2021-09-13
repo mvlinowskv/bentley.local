@@ -1,0 +1,14 @@
+.box-diamond {
+    border: 4px double #fff;
+    height: calc(5rem + 4vw);
+    width: calc(5rem + 4vw);
+    transform: rotate(45deg);
+}
+
+.background-car {
+    background-image: url('../img/pexels-david-correa-8065769.jpg');
+}
+
+.dark-background-top-bottom {
+    background: linear-gradient(0deg, #000, transparent, transparent, #000);
+}

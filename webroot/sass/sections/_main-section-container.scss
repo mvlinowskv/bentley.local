@@ -1,0 +1,20 @@
+.main-section-container {
+    background-image: url('../img/pexels-pixabay-326259.jpg');
+}
+
+.box-advant {
+    border: 4px double #9e0000;
+    transform: rotate(45deg);
+    // width: calc(7rem + 10vw);
+    // height: calc(7rem + 10vw);
+    width: calc(6rem + 4vw);
+    height: calc(6rem + 4vw);
+    margin-bottom: 3rem;
+    z-index: 3;
+
+}
+
+
+.unrotate-text {
+    transform: rotate(-45deg);
+}

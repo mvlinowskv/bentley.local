@@ -1,0 +1,21 @@
+@media (max-width:991.98px) {
+    nav {
+        background: #000;
+        z-index: 10;
+        left: -110vw;
+        transition: 1s ease-out;
+        height: 100vh;
+        width: 75%;
+    }
+
+    .container-menu {
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+        transition: 0.2s ease-out;
+    }
+
+    .top-right {
+        top: 1.5rem;
+        right: 0;
+    }
+}

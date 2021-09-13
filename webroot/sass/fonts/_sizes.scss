@@ -1,0 +1,36 @@
+$font08-05: calc(0.6rem + 0.5vw);
+$font-h1: calc(3rem + 2vw);
+$fontBox: calc(0.7rem + 0.5vw);
+$fontDescrption: calc(0.4rem + 0.5vw);
+$fontH: calc(1rem + 2vw);
+$fontPosts: calc(0.5rem + 0.5vw);
+$font-2-3: calc(2rem + 3vw);
+
+
+.font-08-05 {
+    font-size: $font08-05;
+}
+
+.font-h1 {
+    font-size: $font-h1;
+}
+
+.font-1-05 {
+    font-size: $fontBox;
+}
+
+.font-04-05 {
+    font-size: $fontDescrption;
+}
+
+.font-2-2 {
+    font-size: $fontH;
+}
+
+.font-05-05 {
+    font-size: $fontPosts;
+}
+
+.font-2-3 {
+    font-size: $font-2-3;
+}
