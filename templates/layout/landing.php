@@ -66,7 +66,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="mr-auto w-50">
                 <a class="font-08-05 color-white text-decoration-none text-uppercase" href="<?= $this->Url->build('/') ?>">Bentley</a>
                  <?php 
-                //  if($this->Identity->isLoggedIn()){iuj
+                //  if($this->Identity->isLoggedIn()){iujklokloko
                     echo "Hi ".$this->request->getSession()->read('Auth.email');
                 //  }
                     
