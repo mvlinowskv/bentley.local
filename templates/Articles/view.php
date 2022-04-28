@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="background-fixed background-cover background-center h-100vh w-100" style="background:url('/proj1/img/<?php echo h($article->thumbnail); ?>')">
+    <section class="background-fixed background-cover background-center h-100vh w-100" style="background:url('/img/<?php echo h($article->thumbnail); ?>')">
         <div class="position-absolute w-100 h-100vh top-0 dark-background"> </div>
             <div class="d-flex align-items-center justify-content-center h-100 position-relative">
                 <div class="box-advant box-advant-post-single box-post position-absolute d-flex align-items-center bg-black justify-content-center">

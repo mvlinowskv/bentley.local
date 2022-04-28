@@ -104,18 +104,20 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                 echo $this->request->getSession()->read('Auth.email');
                 ?>
             </div>
-        <nav class="mx-auto mb-0 d-flex position-sm-absolute" id="site-header-menu">
+        <nav class="ml-auto mb-0 d-flex position-sm-absolute" id="site-header-menu">
             
             <div class="ml-lg-auto w-100 d-lg-flex justify-content-end">
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" target="_blank" rel="noopener"
-                    href="https://book.cakephp.org/4/">Documentation</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" target="_blank" rel="noopener"
-                    href="https://api.cakephp.org/">API</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/articles">Articles</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/articles/add">Add
+            <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/proj1/articles">Articles</a>
+                
+                
+                <?php if($this->request->getSession()->read('Auth.email')){ ?>
+                    <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/articles/add">Add
                     article</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users">Users</a>
-                <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users/logout">Logout</a>
+                    <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users">Users</a>
+                    <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users/logout">Logout</a>
+                <?php } else { ?>
+                    <a class="font-08-05 mx-4 color-white text-decoration-none text-uppercase d-block" rel="noopener" href="/users/login">Login</a>
+                <?php } ?>
 
             </div>
             <label for="menu" class="d-lg-none">
